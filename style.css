@@ -1,0 +1,47 @@
+#back{
+ width: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img1b{
+    height:380px;
+    width: 1530px;
+}
+#road{
+    background: url("road1.jpg");
+    width: 1530px;
+    height: 300px;
+
+}
+#carimg{
+    width: 210px;
+    height: 150px;
+}
+#img2b{
+    width: 1530px;
+    height: 300px;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 5px 2px;
+    padding: 10px 20px;
+    background-color:rgb(255 254 78);
+
+
+}
+.btn:hover{
+    background-color:slategrey;
+    color: rgb(22, 7, 1);
+    transition: ease .7s;
+    padding: 10px 20px;
+}
+.str{
+    display: flex;
+    background: rgb(39 30 83);
+    justify-content: center;
+    align-items: center;
+}
